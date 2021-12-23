@@ -1,0 +1,11 @@
+
+git branch test
+git checkout test
+
+
+git add .
+git commit -m "update stuff"
+
+git checkout master
+git pull 
+git merge test
